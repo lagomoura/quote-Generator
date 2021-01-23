@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote generator</title>
+    <!--favicoms-->
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com"><!--depois do domain= vem o nome da imagem-->
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/f5161e1654.js" crossorigin="anonymous"></script>
+    <!--gogle fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Imbue&display=swap" rel="stylesheet">
+    <!--CSS file-->
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="quote-container" id="quote-container">
+        <!-- quote-->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"></span>
+        </div>
+        <!-- end of quote -->
+            <!-- author-->
+            <div class="quote-author">
+                <span id="author"></span>
+            </div>
+            <!-- end of author -->
+            <!--buttons-->
+            <div class="button-container">
+                <button class="twitter-button" id="twitter" title="tweet this!">
+                    <i class="fab fa-twitter"></i>
+                </button>
+                <button id="new-quote">New quote</button>
+            </div>
+            <!-- end of buttons -->
+        </div>
+
+        <!-- loader -->
+        <div class="loader" id="loader">
+            
+        </div>
+        <!-- end of loader -->
+<!--JS file-->    
+<script src="/script.js"></script>   
+</body>
+</html>
